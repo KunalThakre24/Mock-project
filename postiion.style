@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#parentdiv {
+  border: 2px solid black;
+  background-color: pink;
+  width: 500px;
+  height: 730px;
+
+  position: relative;
+}
+
+#div1 {
+  border: 2px solid black;
+  background-color: rgb(187, 234, 160);
+  width: 130px;
+  height: 80px;
+
+  background: ;
+
+  position: absolute;
+  top: 20%;
+  right: 5%;
+}
+
+p:hover {
+    font-size: 20px;
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.2s;
+}
